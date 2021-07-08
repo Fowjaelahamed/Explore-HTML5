@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="audio-video.html">Media</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to World!!!</h1>
+    </header>
+    <h1>Exploring form</h1>
+    <form action="">
+        <p>Name: <input type="text" placeholder="Enter your name"></p>
+        <p>Email: <input type="text" placeholder="Enter your email"></p>
+        <fieldset>
+            <legend>Select your Language</legend>
+            <p>
+                <label for="html5">
+                    <input type="radio" name="Language" id="html5">HTML5
+                </label>
+            </p>
+            <p>
+                <label for="css3">
+                    <input type="radio" name="Language" id="css3">CSS3
+                </label>
+            </p>
+            <p>
+                <label for="python">
+                    <input type="radio" name="Language" id="python">PYTHON
+                </label>
+            </p>
+            <p>
+                <label for="ruby">
+                    <input type="radio" name="Language" id="ruby">RUBY
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>select your district</legend>
+            <!--always name will be same in each label -->
+            <p><label for="dhaka"><input type="checkbox" name="district" id="dhaka">DHAKA</label></p>
+            <p><label for="gazipur"><input type="checkbox" name="district" id="gazipur"></label>GAZIPUR</p>
+            <p><label for="tangail"><input type="checkbox" name="district" id="tangail">TANGAIL</label></p>
+        </fieldset>
+        <p>Special Skill
+            <br>
+            <textarea name="skill" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+
+</html>
